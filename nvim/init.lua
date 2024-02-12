@@ -113,3 +113,8 @@ vim.g.sqlite_clib_path = require('luv').os_getenv('LIBSQLITE')
 -- on the packpath when passing a file to the nvim command
 cmd.syntax('on')
 cmd.syntax('enable')
+
+-- colorscheme
+vim.opt.background = "dark" -- set this to dark or light
+vim.cmd("colorscheme oxocarbon")
+
